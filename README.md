@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Next.js To-Do List
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Overview
+Created a simple to do list using nextJS, prisma and typescript.
+
+## Key Learnings
+Throughout the development of this project, several valuable insights were gained:
+
+Folder Structure: In Next.js, creating a new folder inside the app is essential for a new route to function correctly. This organized structure enables efficient routing and management of various components.
+
+Server-Side Rendering: Next.js provides a powerful feature of server-side rendering (SSR), allowing server-side code to be executed within components. This approach contrasts with traditional React applications that often require separate asynchronous calls with tools like Axios.
+
+Client-Side Navigation: The built-in Link component in Next.js offers seamless prefetching and client-side navigation between routes. This enhances the user experience by reducing loading times and making transitions smoother.
+
+Server Components vs. Client Components: In Next.js, components can be categorized as server components or client components, offering flexibility in optimizing performance. Understanding when to utilize each type is crucial for enhancing the application's efficiency
+
 ## Getting Started
 
 First, run the development server:
@@ -26,9 +44,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
