@@ -10,13 +10,13 @@ Created a simple to do list using nextJS, prisma and typescript.
 ## Key Learnings
 Throughout the development of this project, several valuable insights were gained:
 
-Folder Structure: In Next.js, creating a new folder inside the app is essential for a new route to function correctly. This organized structure enables efficient routing and management of various components.
+- <b>Folder Structure</b>: In Next.js, creating a new folder inside the app is essential for a new route to function correctly. This organized structure enables efficient routing and management of various components.
 
-Server-Side Rendering: Next.js provides a powerful feature of server-side rendering (SSR), allowing server-side code to be executed within components. This approach contrasts with traditional React applications that often require separate asynchronous calls with tools like Axios.
+- <b>Server-Side Rendering</b>: Next.js provides a powerful feature of server-side rendering (SSR), allowing server-side code to be executed within components. This approach contrasts with traditional React applications that often require separate asynchronous calls with tools like Axios.
 
-Client-Side Navigation: The built-in Link component in Next.js offers seamless prefetching and client-side navigation between routes. This enhances the user experience by reducing loading times and making transitions smoother.
+- <b>Client-Side Navigation</b>: The built-in Link component in Next.js offers seamless prefetching and client-side navigation between routes. This enhances the user experience by reducing loading times and making transitions smoother.
 
-Server Components vs. Client Components: In Next.js, components can be categorized as server components or client components, offering flexibility in optimizing performance. Understanding when to utilize each type is crucial for enhancing the application's efficiency
+- <b>Server Components vs. Client Components</b>: In Next.js, components can be categorized as server components or client components, offering flexibility in optimizing performance. Understanding when to utilize each type is crucial for enhancing the application's efficiency
 
 ## Getting Started
 
